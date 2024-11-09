@@ -1,0 +1,6 @@
+[build]
+  publish = "build"          # Replace "build" with your build output directory
+  command = "npm run build"  # Command to build your project
+
+[build.environment]
+  NODE_VERSION = "16"        # Specify Node.js version, adjust as needed
